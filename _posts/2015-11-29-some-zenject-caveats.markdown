@@ -56,7 +56,7 @@ The easiest way of doing this is binding the parts using getters to the parent
 models
 
 ```csharp
-Container.Bind<IResources>().ToGetter<IPlayer>(p => p.Resources );
+Container.Bind<IResources>().ToGetter<IPlayer>( p => p.Resources );
 ```
 
 But this introduces a problems, when the player is reloaded it will create a new

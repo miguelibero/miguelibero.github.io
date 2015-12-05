@@ -8,7 +8,7 @@ permalink: /aboutme/
 
 My name is Miguel Ibero and I am a software developer from Barcelona, Spain.
 I am currently working at [Social Point](http://www.socialpoint.es),
-developing social games for smartphones. I'm interestend in modern C++,
+developing social games for smartphones. I'm interested in
 concurrency and software architecture. I'm mostly busy with Unity3D
 C# now and I like it, though my love will always be C++.
 
