@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   My name is Miguel Ibero and I am a software developer from Barcelona, Spain.
   This is my personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://miguelibero.github.io" # the base hostname & protocol for your site
+url: "http://miguel.ibero.me" # the base hostname & protocol for your site
 twitter_username: miguel_ibero
 github_username:  miguelibero
 disqus_shortname: miguel-ibero-me
