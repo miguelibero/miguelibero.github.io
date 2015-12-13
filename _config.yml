@@ -18,10 +18,9 @@ github_username:  miguelibero
 disqus_shortname: miguel-ibero-me
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
 
 kramdown:
   input: GFM
   hard_wrap: false
-
-highlighter: pygments
