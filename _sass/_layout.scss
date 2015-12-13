@@ -93,8 +93,12 @@
 }
 
 .site-description {
-  padding: $spacing-unit;
+  margin: $spacing-unit / 2 auto 0 auto;
+  padding: $spacing-unit / 2 0;
+  border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
+  background-color: lighten($grey-color, 45%);
+  color: $grey-color-dark;
 }
 
 /**

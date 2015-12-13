@@ -23,12 +23,12 @@ be used to find a child game object with a given name.
 ```csharp
 public class FindChildAttribute : System.Attribute
 {
-  public string Name { get; private set; }
+    public string Name { get; private set; }
 
-  public FindChildAttribute(string name)
-  {
-    Name = name;
-  }
+    public FindChildAttribute(string name)
+    {
+        Name = name;
+    }
 }
 ```
 
@@ -39,11 +39,11 @@ using UnityEngine;
 
 public class ExampleBehaviour : MonoBehaviour
 {
-  [FindChild("Child")]
-  GameObject _child;
+    [FindChild("Child")]
+    GameObject _child;
 
-  [FindChild("Child")]
-  Transform _childTransform;
+    [FindChild("Child")]
+    Transform _childTransform;
 }
 ```
 
