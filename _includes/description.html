@@ -1,0 +1,9 @@
+<div class="wrapper site-description">
+  <p>My name is Miguel Ibero and I am a software developer from Barcelona, Spain.</p>
+
+  {% for my_page in site.pages %}
+    {% if my_page.name == "about.md" %}
+      <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">More about me...</a>
+    {% endif %}
+  {% endfor %}
+</div>

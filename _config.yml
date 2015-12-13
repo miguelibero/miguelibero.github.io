@@ -9,8 +9,7 @@
 title: miguel.ibero.me
 email: miguel@ibero.me
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Miguel Ibero and I am a software developer from Barcelona, Spain.
-  This is my personal site.
+  Personal website of Miguel Ibero, a software developer from Barcelona, Spain.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://miguel.ibero.me" # the base hostname & protocol for your site
 twitter_username: miguel_ibero

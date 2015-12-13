@@ -92,7 +92,10 @@
     }
 }
 
-
+.site-description {
+  padding: $spacing-unit;
+  border-bottom: 1px solid $grey-color-light;
+}
 
 /**
  * Site footer
@@ -138,6 +141,17 @@
   width:         calc(50% - (#{$spacing-unit} / 2));
   padding-left: $spacing-unit / 2;
   float: left;
+}
+
+@include media-query($on-palm) {
+
+  .page-col-1, .page-col-2 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+  }
+
 }
 
 .post-list {
